@@ -1,36 +1,69 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# VisionPrint Publishing LLC
 
-## Getting Started
+Marketing landing page for **VisionPrint Publishing LLC** — book writing, editing, publishing, and marketing services.
 
-First, run the development server:
+## Warning
+
+**This project is not Crown Exotic Cars, not CPMM, and not starter-kit.**
+
+Do not repurpose this repository, Vercel project, or domains for another business. See [PROJECT_IDENTITY.md](./PROJECT_IDENTITY.md) and [docs/agent-safety-checklist.md](./docs/agent-safety-checklist.md) before any deploy or domain change.
+
+## Project identity
+
+| Field | Value |
+|-------|-------|
+| **Business** | VisionPrint Publishing LLC |
+| **Local folder** | `/Users/nadhirwadud/Web design/projects/visionprint-publishing-llc/` |
+| **GitHub repo** | https://github.com/dowadud/visionprint-publishing-llc |
+| **Vercel project** | `visionprint-publishing-llc` |
+| **Production domain** | https://visionprintpublishingllc.com |
+| **WWW** | https://www.visionprintpublishingllc.com → redirects to apex |
+| **Vercel URL** | https://visionprint-publishing-llc.vercel.app |
+
+## Contact
+
+- **Phone:** 704-724-6732
+- **Email:** info@visionprintpublishingllc.com
+- **Address:** 13534 Plazard Extension, Charlotte, NC 28215
+
+## Tech stack
+
+- Next.js (App Router)
+- TypeScript
+- Tailwind CSS
+- Framer Motion
+
+## Local development
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open [http://localhost:3000](http://localhost:3000).
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+## Pre-deploy checks
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+Run before every deploy or handoff to another agent:
 
-## Learn More
+```bash
+npm run verify:identity
+npm run build
+```
 
-To learn more about Next.js, take a look at the following resources:
+Both must pass. Do not change Vercel domains without explicit human approval.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+## Related docs
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+- [PROJECT_IDENTITY.md](./PROJECT_IDENTITY.md) — non-negotiable project boundaries
+- [docs/deployment-notes.md](./docs/deployment-notes.md) — domains, DNS, Vercel mapping
+- [docs/agent-safety-checklist.md](./docs/agent-safety-checklist.md) — required agent checklist
 
-## Deploy on Vercel
+## Protected unrelated project (do not touch)
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+**Crown Exotic Cars** — separate repo and Vercel project `crown-exotic-cars`.
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+Protected domains (never attach to this project):
+
+- crownexoticcars.com
+- www.crownexoticcars.com
