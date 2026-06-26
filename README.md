@@ -22,9 +22,9 @@ Do not repurpose this repository, Vercel project, or domains for another busines
 
 ## Contact
 
-- **Phone:** 704-724-6732
-- **Email:** info@visionprintpublishingllc.com
-- **Address:** 13534 Plazard Extension, Charlotte, NC 28215
+- **Phone:** 800-484-5485
+- **Email:** support@visionprintpublishingllc.com
+- **Address:** 13534 Plaza Road Extension, Charlotte, NC 28215
 
 ## Tech stack
 

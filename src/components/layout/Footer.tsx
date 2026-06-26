@@ -84,19 +84,19 @@ export function Footer() {
             <ul className="space-y-4">
               <li>
                 <p className="text-[#444] text-xs uppercase tracking-wide mb-0.5">Phone</p>
-                <a href="tel:+17047246732" className="text-[#888] text-sm hover:text-[#c9a84c] transition-colors">
-                  704-724-6732
+                <a href="tel:+18004845485" className="text-[#888] text-sm hover:text-[#c9a84c] transition-colors">
+                  800-484-5485
                 </a>
               </li>
               <li>
                 <p className="text-[#444] text-xs uppercase tracking-wide mb-0.5">Email</p>
-                <a href="mailto:info@visionprintpublishingllc.com" className="text-[#888] text-sm hover:text-[#c9a84c] transition-colors">
-                  info@visionprintpublishingllc.com
+                <a href="mailto:support@visionprintpublishingllc.com" className="text-[#888] text-sm hover:text-[#c9a84c] transition-colors">
+                  support@visionprintpublishingllc.com
                 </a>
               </li>
               <li>
                 <p className="text-[#444] text-xs uppercase tracking-wide mb-0.5">Address</p>
-                <p className="text-[#888] text-sm">13534 Plazard Extension, Charlotte, NC 28215</p>
+                <p className="text-[#888] text-sm">13534 Plaza Road Extension, Charlotte, NC 28215</p>
               </li>
             </ul>
           </div>

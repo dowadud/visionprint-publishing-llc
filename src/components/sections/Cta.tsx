@@ -56,7 +56,7 @@ export function Cta() {
           transition={{ duration: 0.5, delay: 0.3 }}
         >
           <motion.a
-            href="tel:+17047246732"
+            href="tel:+18004845485"
             className="inline-flex items-center justify-center gap-2.5 bg-[#c9a84c] text-[#0a0a0a] font-bold px-10 py-5 rounded-full text-base hover:bg-[#e8c97a] transition-colors duration-200 shadow-lg shadow-[#c9a84c]/25"
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
@@ -73,7 +73,7 @@ export function Cta() {
             Call for Free Consultation
           </motion.a>
           <motion.a
-            href="mailto:info@visionprintpublishingllc.com"
+            href="mailto:support@visionprintpublishingllc.com"
             className="inline-flex items-center justify-center gap-2.5 border border-[#c9a84c]/40 text-[#c9a84c] font-bold px-10 py-5 rounded-full text-base hover:border-[#c9a84c] hover:bg-[#c9a84c]/5 transition-all duration-200"
             whileHover={{ scale: 1.04 }}
             whileTap={{ scale: 0.97 }}
